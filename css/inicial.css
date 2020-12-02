@@ -1,0 +1,21 @@
+
+
+.linha{
+    border:0.15rem solid #3D3D5E;
+    width: 70%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: left;
+    padding:0.5rem;
+    margin: 0.5rem;
+    background-color:#f1f1f0;
+}
+
+.projeto{
+    width: 100%;
+    height: auto;
+    border-bottom:0.15rem solid #3D3D5E;  
+}

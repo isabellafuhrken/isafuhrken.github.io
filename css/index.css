@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Catamaran', sans-serif;
+}
+
+main{
+    display: flex;
+    min-height: 70%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+
+body{
+    display:flex;
+    height:100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+h1{
+    display:flex;
+    font-family: 'Gilda Display', serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    margin:0.5rem;
+    padding: 0.5rem;
+
+}
+
+h3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:0.5rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+
+h2{
+    display: flex;
+    margin:0.5em;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Gilda Display', serif;
+    
+}
+.borda{
+    border: 0.1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color:#c4c4a1;
+    color:rgb(0, 0, 0);
+    width: 50%;
+}
+
+.image-cropper{
+    height: auto;
+    width: 4rem; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+}
+
+
+
+a{
+    margin: 1.5rem;
+    text-decoration: none;
+}
+
+.logo{
+    width: 4rem;
+    height: auto;
+    padding: 1rem;
+}
+.seta{
+    position: fixed;
+    left:2rem;
+}
+
+
+
+.botao{
+    color: #929292;
+    size: 10rem;
+  }
+
+.botao_atual{
+    color: #3D3D5E;  
+    size: 10rem;
+}
+
