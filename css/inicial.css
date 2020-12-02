@@ -19,3 +19,15 @@
     height: auto;
     border-bottom:0.15rem solid #3D3D5E;  
 }
+
+p{
+    padding: 0.5rem;
+}
+
+
+footer{
+    height: fit-content;
+    padding: 0.5rem;
+    border-top:0.15rem solid #3D3D5E;
+}
+

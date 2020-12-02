@@ -3,7 +3,7 @@
     flex-direction: column;
     width: auto;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
     padding:0.5rem;
     line-break: normal;
     margin: 0.5rem;
@@ -27,7 +27,7 @@ main{
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-evenly;
-    border-bottom: solid black;
+    border-bottom: #11111e;
     overflow-x: hidden;
     overflow-y: auto;
     white-space: nowrap;
@@ -51,13 +51,23 @@ footer{
     margin: 1rem;
     padding: 0.5rem;
     background-color:#3d3d5e;
-    color:rgb(255, 255, 255);
+    color: #f1f1f0;
 }
 
 
 .linha{
     display: flex;
     flex-direction: row;
-    text-align: center;
+    text-align: start;
     align-items: center;
+    justify-content: space-between;
 }
+p{
+    padding: 0.2rem;
+}
+
+
+input{
+    margin: 0.5rem;
+}
+

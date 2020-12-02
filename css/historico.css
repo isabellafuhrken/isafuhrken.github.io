@@ -3,7 +3,7 @@
     flex-direction: column;
     width: auto;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
     padding:0.5rem;
     line-break: normal;
     margin: 0.5rem;
@@ -13,38 +13,23 @@
 .linha{
     display: flex;
     flex-direction: row;
-    text-align: center;
+    text-align: start;
     align-items: center;
+    justify-content: space-between;
 }
 
 main{
-    text-align: left;
+    text-align: center;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border-bottom: #11111e;
     overflow-x: hidden;
     overflow-y: auto;
     white-space: nowrap;
     
 }
-h1,h2{
-    padding-left: 2rem;
-}
 
-footer{
-    display: flex;
-    flex-direction: row;
-    text-align: start;
-    align-items: flex-start;
-    justify-content: space-between;
+p{
+    padding: 0.2rem;
 }
-
-.comentario{
-    border: 0.1rem;
-    border-radius: 1rem;
-    margin: 1rem;
-    padding: 0.5rem;
-    background-color:#3d3d5e;
-    color:rgb(255, 255, 255);
-}
-

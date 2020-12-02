@@ -3,17 +3,42 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
+    width: auto;
     justify-content: space-around;
-    border-top: solid 2px rgb(0, 0, 0);
-    border-bottom: solid 2px rgb(0, 0, 0);
+    border-top: solid 2px #11111e ;
+    border-bottom: solid 2px #11111e;
+    margin: 1rem;
 }
 
 .ferr{
-    color:rgb(0, 0, 0);
+    color:#11111e;
 }
 
 .etapa{
-    width: 60%;
+    width: 100%;
     height: auto;
-    border-bottom: solid 2px rgb(0, 0, 0);
+    margin: 1rem;
+    border-bottom: solid 2px #11111e;
+}
+
+a{
+    margin: 0.7rem;
+}
+
+.botao{
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-between;
 }
